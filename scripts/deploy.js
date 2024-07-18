@@ -5,6 +5,7 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
+const { ethers } = require("hardhat");
 
 const tokens = (n) => {
   return ethers.utils.parseUnits(n.toString(), 'ether')
@@ -13,12 +14,17 @@ const tokens = (n) => {
 async function main() {
   //Setup Accounts
   const [buyer, seller, inspector, lender] = await ethers.getSigners()
+  // const [wallet] = await ethers.getSigners();
 
   //Deploy Real Estate
   const RealEstate = await ethers.getContractFactory('RealEstate')
   const realEstate = await RealEstate.deploy()
   await realEstate.deployed()
 
+  // console.log(buyer)
+  // console.log(seller)
+  // console.log(inspector)
+  // console.log(lender)
   console.log(`Deployed Real Estate Contract at: ${realEstate.address}`)
   console.log(`Minting 3 properties...\n`)
 
