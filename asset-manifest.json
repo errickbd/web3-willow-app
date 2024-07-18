@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9723886c.css",
-    "main.js": "/static/js/main.4fdcf5d7.js",
-    "static/js/787.d3d9e98b.chunk.js": "/static/js/787.d3d9e98b.chunk.js",
-    "static/media/houses.png": "/static/media/houses.4d3bb237fb5a23c27d5a.png",
-    "static/media/logo.svg": "/static/media/logo.d723edf07b3a4df9be9647ffbe504ad1.svg",
-    "index.html": "/index.html",
-    "static/media/close.svg": "/static/media/close.ae469738e479d31aa952364e12120ad2.svg",
-    "main.9723886c.css.map": "/static/css/main.9723886c.css.map",
-    "main.4fdcf5d7.js.map": "/static/js/main.4fdcf5d7.js.map",
-    "787.d3d9e98b.chunk.js.map": "/static/js/787.d3d9e98b.chunk.js.map"
+    "main.css": "/web3-willow-app/static/css/main.f16dcea3.css",
+    "main.js": "/web3-willow-app/static/js/main.2d873909.js",
+    "static/js/787.d3d9e98b.chunk.js": "/web3-willow-app/static/js/787.d3d9e98b.chunk.js",
+    "static/media/houses.png": "/web3-willow-app/static/media/houses.4d3bb237fb5a23c27d5a.png",
+    "static/media/logo.svg": "/web3-willow-app/static/media/logo.d723edf07b3a4df9be9647ffbe504ad1.svg",
+    "index.html": "/web3-willow-app/index.html",
+    "static/media/close.svg": "/web3-willow-app/static/media/close.ae469738e479d31aa952364e12120ad2.svg",
+    "main.f16dcea3.css.map": "/web3-willow-app/static/css/main.f16dcea3.css.map",
+    "main.2d873909.js.map": "/web3-willow-app/static/js/main.2d873909.js.map",
+    "787.d3d9e98b.chunk.js.map": "/web3-willow-app/static/js/787.d3d9e98b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9723886c.css",
-    "static/js/main.4fdcf5d7.js"
+    "static/css/main.f16dcea3.css",
+    "static/js/main.2d873909.js"
   ]
 }
